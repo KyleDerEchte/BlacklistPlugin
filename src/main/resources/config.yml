@@ -1,0 +1,47 @@
+######################
+#
+#   SETTINGS
+#
+######################
+
+Blacklist:
+  - '&8&m--&8[ &3&lYou have been blacklisted &8]&8&m--'
+  - ''
+  - '&cReason &8➤ &f%reason%'
+  - '&cDuration &8➤ &fForever'
+  - ''
+  - '&7&o(( www.yourwebsite.com ))'
+  - '&7&o(( discord.yourwebsite.com ))'
+
+######################
+#
+#   MESSAGES
+#
+######################
+
+messages:
+  NoPermissions: "&cInsufficient Permission"
+  PlayerNotFound: "&c&l[!] &cPlayer not found"
+  IncorrectUsage: "&cUSAGE: %usage%"
+  Blacklisted: "&8[&6Blacklist&8] &c%player% has been blacklisted"
+  UnBlacklisted: "&8[&6Blacklist&8] &c%player% has been unblacklisted"
+  IsBlacklisted: "&8[&6Blacklist&8] &c%player% is already blacklisted"
+  NotBlacklisted: "&8[&6Blacklist&8] &c%player% is not blacklisted"
+  Exempted: "&c&l[!] &cYou cannot blacklist that player"
+  Blacklist-Title: "&8&m------&r &6&lBlacklist List &8&m------"
+  Blacklist-Format: "&8&l%pos%. &c%player%"
+  Blacklist-Per-Page: 8
+  BlacklistReason: "&4&lReason: &f%reason%"
+  BlacklistNoData: "&c&l[!] &cNo data found"
+  Reload: "&8[&6BlackList&8] &fConfig Reloaded"
+
+######################
+#
+#   PERMISSIONS AND COMMANDS
+#
+######################
+# /blacklist <player> <reason> | blacklist | Blacklist a player from the server
+# /blacklist <remove> <player> | blacklist.remove | Remove a player from the blacklist
+# /blacklist list | blacklist.list | List all blacklisted players
+# blacklist.exempt | Permission to bypass the blacklist command (Player may not be blacklisted)
+#

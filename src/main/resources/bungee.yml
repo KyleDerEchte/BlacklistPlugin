@@ -1,0 +1,4 @@
+name: Blacklist
+main: de.kyleonaut.blacklist.BlacklistPlugin
+version: 1.0.0
+author: kyleonaut
