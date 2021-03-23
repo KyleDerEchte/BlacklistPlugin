@@ -42,5 +42,6 @@ messages:
 # /blacklist <player> <reason> | blacklist | Blacklist a player from the server
 # /blacklist <remove> <player> | blacklist.remove | Remove a player from the blacklist
 # /blacklist list | blacklist.list | List all blacklisted players
+# /blacklist reload | blacklist.admin | Reload the Config
 # blacklist.exempt | Permission to bypass the blacklist command (Player may not be blacklisted)
 #
