@@ -30,7 +30,6 @@ messages:
   Exempted: "&c&l[!] &cYou cannot blacklist that player"
   Blacklist-Title: "&8&m------&r &6&lBlacklist List &8&m------"
   Blacklist-Format: "&8&l%pos%. &c%player%"
-  Blacklist-Per-Page: 8
   BlacklistReason: "&4&lReason: &f%reason%"
   BlacklistNoData: "&c&l[!] &cNo data found"
   Reload: "&8[&6BlackList&8] &fConfig Reloaded"
