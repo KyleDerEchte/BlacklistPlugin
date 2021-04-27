@@ -1,5 +1,8 @@
-package de.kyleonaut.blacklist.player;
+package de.kyleonaut.blacklist.player.service;
 
+import de.kyleonaut.blacklist.player.models.BlacklistedPlayer;
+import de.kyleonaut.blacklist.player.repository.BlacklistRepository;
+import de.kyleonaut.blacklist.player.repository.BlacklistRepositoryImpl;
 import lombok.Getter;
 
 import java.util.List;

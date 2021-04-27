@@ -1,6 +1,6 @@
 package de.kyleonaut.blacklist;
 
-import de.kyleonaut.blacklist.player.BlacklistController;
+import de.kyleonaut.blacklist.player.controller.BlacklistController;
 import lombok.Getter;
 import lombok.SneakyThrows;
 import net.md_5.bungee.api.ChatColor;
@@ -25,7 +25,7 @@ public class BlacklistPlugin extends Plugin {
     @SneakyThrows
     @Override
     public void onEnable() {
-        File theDir = new File(ProxyServer.getInstance().getPluginsFolder().getPath()+"/BlacklistPlugin");
+        final File theDir = new File(ProxyServer.getInstance().getPluginsFolder().getPath()+"/BlacklistPlugin");
         if (!theDir.exists()){
             theDir.mkdirs();
         }

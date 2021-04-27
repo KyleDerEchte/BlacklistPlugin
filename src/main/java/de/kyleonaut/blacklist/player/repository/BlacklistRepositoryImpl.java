@@ -1,10 +1,11 @@
-package de.kyleonaut.blacklist.player;
+package de.kyleonaut.blacklist.player.repository;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import de.kyleonaut.blacklist.BlacklistPlugin;
+import de.kyleonaut.blacklist.player.models.BlacklistedPlayer;
 import lombok.SneakyThrows;
 
 import java.io.FileReader;

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MineageBlacklist">
+    <output-path>$PROJECT_DIR$/../../MinecraftServer-Bungee/Proxy/plugins</output-path>
+    <root id="archive" name="MineageBlacklist.jar">
+      <element id="module-output" name="Blacklist" />
+      <element id="library" level="project" name="sqlite-jdbc-3.8.10.1" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/bungee.yml" />
+      <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.16" />
+    </root>
+  </artifact>
+</component>

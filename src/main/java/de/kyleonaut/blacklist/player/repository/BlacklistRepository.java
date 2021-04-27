@@ -1,4 +1,6 @@
-package de.kyleonaut.blacklist.player;
+package de.kyleonaut.blacklist.player.repository;
+
+import de.kyleonaut.blacklist.player.models.BlacklistedPlayer;
 
 import java.util.Collection;
 import java.util.List;

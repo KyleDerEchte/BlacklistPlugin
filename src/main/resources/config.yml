@@ -44,4 +44,3 @@ messages:
 # /blacklist list | blacklist.list | List all blacklisted players
 # /blacklist reload | blacklist.admin | Reload the Config
 # blacklist.exempt | Permission to bypass the blacklist command (Player may not be blacklisted)
-#

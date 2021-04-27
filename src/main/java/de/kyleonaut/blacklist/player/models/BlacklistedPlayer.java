@@ -1,4 +1,4 @@
-package de.kyleonaut.blacklist.player;
+package de.kyleonaut.blacklist.player.models;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
